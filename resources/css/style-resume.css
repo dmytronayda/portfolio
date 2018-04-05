@@ -13,16 +13,36 @@ h4 {
   font-family: 'Playfair Display', serif;
 }
 
+h1{
+  font-size: 1.75rem;
+}
+
 h2 {
   font-size: 1.25rem;
 }
 
-header{
-  background-color: #FAFAFA;
-  height: 7.25rem;
-  border-bottom: .3px solid #D7D7D7;
-  padding: 1rem 0;
+
+.active {
+  background: linear-gradient(62deg, #fbab7e, #f7ce68);
+  border-radius: 7px;
 }
+
+.nav-link .active {
+  background-color: none;
+}
+.navbar-brand img{
+  max-height: 4rem;
+  height: auto;
+}
+.navbar {
+  padding: 0;
+}
+
+
+
+
+
+
 span {
   text-overflow: ellipsis;
 }
@@ -165,7 +185,8 @@ ul {
 }
 
 .main-content a {
-  color: #281CAC;
+  /* color: #281CAC; */
+  color: inherit;
 }
 
 .col-lg-6 h2 {
@@ -178,7 +199,7 @@ ul {
 
 div .green {
   font-size: 1rem;
-  color: #2F7D46;
+  color: #281CAC;
 }
 
 p {

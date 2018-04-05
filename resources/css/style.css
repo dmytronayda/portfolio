@@ -41,6 +41,10 @@ p {
 
 }
 
+.contact {
+  height: 54rem;
+}
+
 .copy {
   padding: 5rem 0;
 }
@@ -108,6 +112,13 @@ a:-webkit-any-link {
   .hero {
     height: auto;
   }
+  .contact {
+    height: 35rem;
+  }
+
+  .contact .header-mail-mobile {
+    display: grid;
+  }
   .offset {
     padding: 1.5rem;
   }
@@ -149,4 +160,8 @@ footer .container-fluid {
 }
 .fa-heart, #copy {
   color: #960030;
+}
+
+.navbar-item {
+  margin: .5rem;
 }

@@ -3,79 +3,56 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dmytro's Resume</title>
-  <link rel="stylesheet" type="text/css" href="./resources/reset.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- add favicon -->
+  <link rel="shortcut icon" type="image/png" href="./resources/images/dmytro-nayda-favicon.ico" />
+  <!-- reset CSS  -->
+  <link rel="stylesheet" href="./resources/css/reset.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-  <link rel="icon" href="./resources/images/dmytro-nayda-favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet"> -->
+  <!-- add Google Fonts  -->
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./resources/css/style-resume.css">
+  <!-- add FontAwesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  </style>
+  <!-- custom CSS  -->
+  <link rel="stylesheet" href="./resources/css/style-resume.css">
 </head>
 
 <body>
 
 
-  <!-- Header start -->
-  <header>
-    <div class="container-fluid">
-      <div class="container-fluid header-container">
-        <div class="row">
-          <div class="col-lg-1 col-xs-12 logo" id="image">
+  <!-- Navigation  -->
+  <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+    <a href="./index.html" class="navbar-brand d-flex justify-content-center">
+        <img src="./resources/images/logo-design.png" alt="Dmytro Naida logo">
+      </a>
 
-            <div>
-              <!-- <img src="./resources/images/google-brand-logo-128x128.png" alt="dmytro-nayda-resume-google-logo"> -->
-              <a href="./index.html" class="navbar-brand d-flex justify-content-center">
-                    <img src="./resources/images/logo-design.png" alt="Dmytro Naida logo">
-                  </a>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div id="search-container" class="panel panel-default">
-              <div class="panel-body row">
-                <div class="col-lg-11 col-sm-8 col-xs-12">
-                  <span id="overflow-elipsis">Great project manager+fluent english+team lead experience</span>
-                </div>
-                <div class="col-lg-1 col-sm-2 search-icon">
-                  <i class="fa fa-search"></i></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5 google-services">
-            <img class="pull-right" src="./resources/images/chrome-services.png" alt="chrome services">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-1">
-          </div>
-          <div class="col-lg-2 tabs">
-            <div class="pages d-flex justify-content-start">
-              <ul>
-                <li id="strong" class="active">
-                  <a href="./index.html"> <i class="fa fa-arrow-left"></i> Home</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto nav-pills">
+        <li class="navbar-item text-center">
+          <a href="./index.html" class="nav-link ">
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="navbar-item active text-dark text-center">
+          <a href="./resume.html" class="text-dark nav-link"> <i class="fa fa-paperclip"></i>Resume</a>
+        </li>
+        <li class="navbar-item  text-dark text-center">
+          <a href="./contact.html" class="text-dark nav-link disabled">Contact</a>
+        </li>
+      </ul>
     </div>
-  </header>
-  <!-- Header End  -->
+  </nav>
+  <!-- End of Navigation -->
 
   <!-- Main content of the webpage  -->
-  <div class="main-content">
+  <div class="main-content" style="margin-top:2.5rem;">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-1">
@@ -106,7 +83,9 @@
             </ul>
           </div>
           <div class="container-fluid button">
-            <button type="button" class="btn btn-primary" name="button"><a href="http://www.123formbuilder.com/form-3462107/Contact-Lead-Form">Get in touch</a></button>
+            <button class="navbar-item active text-dark">
+              <a href="./resources/resume_nayda.pdf" class="text-dark nav-link"> <i class="fa fa-paperclip"></i>Download Resume</a>
+            </button>
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
@@ -115,6 +94,7 @@
           </div>
           <div class="row">
             <div class="col-lg-12">
+              <h1 class="info-section">Work Experience</h1>
               <a href="#">
                 <h2>Community management & Tech Support Lead</h2>
               </a>
@@ -138,7 +118,7 @@
               </p>
               <div class="row">
                 <div class="col-lg-12">
-                  <a target="_blank" href="https://www.awesomescreenshot.com/image/3150892/2257dfe93235a1fdc1342b0efabe8442">CEO of DB2 about working with me <i class="fa fa-thumbs-up"></i> </a> <br>
+                  <a target="_blank" class="green" href="https://www.awesomescreenshot.com/image/3150892/2257dfe93235a1fdc1342b0efabe8442">CEO of DB2 about working with me <i class="fa fa-thumbs-up"></i> </a> <br>
                 </div>
               </div>
             </div>
@@ -161,7 +141,7 @@
               </p>
               <div class="row">
                 <div class="col-lg-12">
-                  <a target="_blank" href="https://www.awesomescreenshot.com/image/3150895/0cd8a8e9bbd57710dc527d3013b0262a">People at Gameloft about working with me <i class="fa fa-thumbs-up"></i> </a> <br>
+                  <a target="_blank" class="green" href="https://www.awesomescreenshot.com/image/3150895/0cd8a8e9bbd57710dc527d3013b0262a">People at Gameloft about working with me <i class="fa fa-thumbs-up"></i> </a> <br>
                 </div>
               </div>
             </div>
@@ -177,7 +157,8 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="page-header">
-                <h2 class="info-section">Education</h2>
+
+                <h1 class="info-section">Education</h1>
               </div>
               <div class="panel panel-default">
                 <div class="panel-body">
@@ -213,14 +194,14 @@
                         <a class="green" target="_blank" href="https://www.codecademy.com/pro/intensive/build-websites-from-scratch">codecademy/dec-2017-jan-2018/kyiv_ukraine</a>
                         <p>Developed and published 12+ responsive websites; learned Git/Command line, UI/Design principles, HTML, CSS, Bootstrap, JavaScript & jQuery.</p>
                         <div class="row">
-                          <div class="col-lg-4 col-sm-12">
-                            <a target="_blank" href="https://dmytro-nayda.github.io/jumpstart/">Jumpstart<i class="fa fa-code fa-lg"></i> </a>
+                          <div class="col-lg-4 col-sm-12 green">
+                            <a target="_blank" class="green" href="https://dmytro-nayda.github.io/jumpstart/">Jumpstart</i> </a>
                           </div>
                           <div class="col-lg-4 col-sm-12">
-                            <a target="_blank" href="https://dmytro-nayda.github.io/colmar-academy/">Colmar Academy <i class="fa fa-code fa-lg"></i> </a>
+                            <a target="_blank" class="green" href="https://dmytro-nayda.github.io/colmar-academy/">Colmar Academy </a>
                           </div>
                           <div class="col-lg-4 col-sm-12">
-                            <a target="_blank" href="https://github.com/dmytro-nayda">Check my GitHub <i class="fa fa-github fa-lg"></i> </a>
+                            <a target="_blank" class="green" href="https://github.com/DmytroNayda">Check my GitHub</a>
                           </div>
 
                         </div>
@@ -237,8 +218,10 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="page-header">
-                <h2 class="info-section">International Experience</h2>
+
+                <h1 class="info-section">International Experience</h1>
               </div>
+                <br>
               <a target="_blank" href="https://exchanges.state.gov/non-us/program/future-leaders-exchange">
                 <h2>Future Leaders Exchange | Exchange Student</h2>
               </a>
@@ -250,24 +233,28 @@
           <!-- End International experience  -->
 
           <!-- Languages  -->
+
+
           <div class="row languages">
             <div class="col-lg-12">
               <div class="page-header">
                 <h2 class="info-section">Languages</h2>
               </div>
+              <p class="text-left">English</p>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%">
-                  <p class="text-center">English</p>
+                <div class="progress-bar progress-bar-striped bg-primary progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                 </div>
               </div>
+              <br>
+              <p class="text-left">Russian</p>
               <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
-                  <p class="text-center">Russian</p>
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
                 </div>
               </div>
+              <br>
+              <p class="text-left">Ukrainian</p>
               <div class="progress">
-                <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-                  <p class="text-center">Ukrainian</p>
+                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
                 </div>
               </div>
             </div>
@@ -302,7 +289,11 @@
             </ul>
           </div>
           <div class="container-fluid button">
-            <button type="button" class="btn btn-primary" name="button"><a href="./resources/resume_nayda.pdf">Download Resume</a></button>
+            <!-- <button type="button" class="btn active" name="button"><a href="./resources/resume_nayda.pdf">Download Resume</a></button> -->
+
+            <button class="navbar-item active text-dark">
+              <a href="./resources/resume_nayda.pdf" class="text-dark nav-link"> <i class="fa fa-paperclip"></i>Download Resume</a>
+            </button>
           </div>
         </div>
         <div class="col-lg-1">
@@ -317,13 +308,14 @@
       <span>&copy; <i id="copy"class="fa fa-code fa-lg"></i> with <i class="fa fa-heart"></i> by Dmytro Nayda</span>
     </div>
   </footer>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
+  <!-- Bootstrap JS  -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- slick min JS  -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+  <!-- custom JS file  -->
+  <script type="text/javascript" src="./resources/js/main.js"></script>
 </body>
 
 </html>
