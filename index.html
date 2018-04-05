@@ -14,6 +14,8 @@
   <!-- Mailchimp Signup -->
   <!-- Begin MailChimp Signup Form -->
   <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <!-- SLick CSS -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
 
   <!-- custom CSS  -->
   <link rel="stylesheet" href="./resources/css/style.css">
@@ -33,7 +35,9 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto nav-pills">
         <li class="navbar-item">
-          <a href="#" class="text-light nav-link active text-dark"><i class="fa fa-home"></i> Home</a>
+          <a href="#" class="nav-link active text-dark">
+            <span> <i class="fa fa-home"></i> Home</span>
+          </a>
         </li>
         <li class="navbar-item">
           <a href="#" class="text-light nav-link disabled">Blog</a>
@@ -66,10 +70,10 @@
                 <form action="https://about.us9.list-manage.com/subscribe/post?u=789097fc35fd48501f3f04e49&amp;id=e65ca58936" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                   <div id="mc_embed_signup_scroll">
 
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_789097fc35fd48501f3f04e49_e65ca58936" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" style="font: inherit;" class="button bg-dark"></div>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_789097fc35fd48501f3f04e49_e65ca58936" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" style="font: inherit;" class="button bg-dark"></div>
 
 
                   </div>
@@ -85,21 +89,59 @@
   </div>
   <!-- End of Hero section -->
 
-  <!-- Testimonials section  -->
-  <div class="testimonial">
-    <div class="container">
-
-    </div>
+  <!-- Testimonials section carousel -->
+  <div class="container-fluid text-center offset bg-light">
+    <h2 class="text-dark">What people say about working with me...</h2>
   </div>
+  <div class="carousel">
+    <div class="jumbotron jumbotron-two d-flex flex-column align-content-center">
+      <div class="jumbotron-content text-center testimonial">
+        <div class="container">
+          <h1>Iegor Rybalko</h1>
+          <h3>- Project Manager/PM Coach</h3>
+          <p class="text-left font-weight-bold"> <span class="bg-warning">Dmytro is a beast in terms of productivity, time management skills and self-motivation. His ability to dive into details and to learn new things is outstanding.</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-one d-flex flex-column align-content-center">
+      <div class="jumbotron-content text-center testimonial">
+        <div class="container">
+          <h1>Ida Mendoza</h1>
+          <h3>- App Marketing Artist/Designer</h3>
+          <p class="text-left font-weight-bold"> <span class="bg-warning">It's really great to be working with Dmytro. He is both very professional and friendly in every design project we've work on together. Would be happy to continue working with him!</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-three d-flex flex-column align-content-center">
+      <div class="jumbotron-content text-center testimonial">
+        <div class="container">
+          <h1>Ricardo Pereira</h1>
+          <h3>- CEO, DB2</h3>
+          <p class="text-left font-weight-bold"> <span class="bg-warning">Dmytro was our first hire when we started out and it's with a tear in our eye that we're saying goodbye to him.
+
+He's been a huge help in doing research, hiring customer reps and in general managing the team.</span></p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
   <!-- End of testimonials section  -->
-
-
 
 
   <!-- Bootstrap JS  -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- slick min JS  -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+  <!-- custom JS file  -->
+  <script type="text/javascript" src="./resources/js/main.js"></script>
 </body>
 
 </html>

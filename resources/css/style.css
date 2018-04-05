@@ -9,6 +9,10 @@ p {
   background: linear-gradient(62deg, #fbab7e, #f7ce68);
 }
 
+.nav-link .active {
+  background-color: none;
+}
+
 .hero {
   padding-top: 56px;
   height: 35rem;
@@ -56,4 +60,58 @@ a:-webkit-any-link {
   .header-mail-mobile {
     display: none;
   }
+}
+
+.testimonial {
+  padding: 3rem;
+  width: auto;
+}
+
+.offset {
+  padding: 3rem;
+}
+
+.jumbotron {
+  height: 30rem;
+}
+
+@media only screen and (max-width:480px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  .hero {
+    height: auto;
+  }
+  .offset {
+    padding: 1.5rem;
+  }
+
+}
+
+
+.jumbotron-one {
+  background-image: url("./../images/carousel-image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-two {
+  background-image: url("./../images/carousel-image-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-three {
+  background-image: url("./../images/carousel-image-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
