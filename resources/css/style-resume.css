@@ -379,3 +379,7 @@ ul {
     display: none;
   }
 }
+
+.navbar-item {
+  margin: .5rem;
+}
