@@ -132,3 +132,21 @@ a:-webkit-any-link {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #FAFAFA;
+  height: 7.25rem;
+  border-top: .3px solid #D7D7D7;
+}
+
+footer .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.fa-heart, #copy {
+  color: #960030;
+}
