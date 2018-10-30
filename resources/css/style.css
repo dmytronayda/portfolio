@@ -144,6 +144,17 @@ a:-webkit-any-link {
   background-size: cover;
 }
 
+.jumbotron-four {
+  background-image: url("./../images/carousel-image-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-five {
+  background-image: url("./../images/carousel-image-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 footer {
   display: flex;
   flex-direction: column;
