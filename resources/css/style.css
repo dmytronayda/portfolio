@@ -113,7 +113,7 @@ a:-webkit-any-link {
     height: auto;
   }
   .contact {
-    height: 35rem;
+    height: 100%;
   }
 
   .contact .header-mail-mobile {
