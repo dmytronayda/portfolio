@@ -35,7 +35,7 @@ h2 {
   height: auto;
 }
 .navbar {
-  padding: 0;
+  padding: 0 10px;
 }
 
 
@@ -243,7 +243,7 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: #FAFAFA;
-  height: 7.25rem;
+  padding: 1rem; 
   border-top: .3px solid #D7D7D7;
 }
 
@@ -251,7 +251,6 @@ footer .container-fluid {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 3rem;
 }
 
 .fa-heart, #copy {

@@ -16,7 +16,7 @@
   </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dmytro's Blog</title>
+  <title>Dmytro's Contacts</title>
   <!-- add favicon -->
   <link rel="shortcut icon" type="image/png" href="./resources/images/dmytro-nayda-favicon.ico" />
   <!-- reset CSS  -->
@@ -34,7 +34,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   </style>
   <!-- custom CSS  -->
-  <link rel="stylesheet" href="./resources/css/style.css">
+  <link rel="stylesheet" href="./resources/css/contact.css">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
       </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse" style="padding-right: 0.5rem;">
+    <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto nav-pills">
         <li class="navbar-item text-center">
           <a href="./index.html" class="nav-link text-dark">
@@ -58,10 +58,10 @@
           <a href="./resume.html" class="text-dark nav-link disabled">Resume</a>
         </li>
         <li class="navbar-item text-center">
-          <a href="./blog.html" class="text-dark active nav-link "><i class="fa fa-book" aria-hidden="true"></i> Blog</a>
+          <a href="./blog.html" class="text-dark nav-link disabled">Blog</a>
         </li>
         <li class="navbar-item text-center">
-          <a href="./contactUsingSCSSForStyling.html" class="text-dark nav-link disabled"></i> Contact</a>
+          <a href="#" class="text-dark active nav-link"> <i class="fa fa-paper-plane"></i> Contact</a>
         </li>
       </ul>
     </div>
@@ -69,27 +69,27 @@
   <!-- End of Navigation -->
 
   <!-- Hero section of the website - main info + subs form  -->
-  <div class="hero contact text-light">
+  <div class="hero contact text-light" >
     <div class="container">
       <div class="row copy">
-        <div class="col-lg-1">
-
+        <div class="col-lg-7">
+          <h1>Hi there!</h1>
+          <p>Thanks for interest. If you wish to get in touch, just drop me a line...</p>
         </div>
-        <div style="padding-bottom:1rem;" class="col-lg-5">
-          <div class="d-flex flex-column align-content-around">
-            <!-- Use https://iframely.com/embed to embed articles  -->
-            <script async src="https://static.medium.com/embed.js"></script><a class="m-story" href="https://medium.com/@Dmytro.N/dmytro-naida-2018-into-2019-f28b99adace7">Dmytro Naida: 2018 into 2019 – Dmytro Nayda – Medium</a>
+        <div class="col-lg-5 header-mail-mobile">
+          <div class="header-mail d-flex flex-column align-content-around">
+            <a target="_blank" href="mailto:dima.nayda.1993@gmail.com"> 
+                <button type="button" class="btn bg-light" name="button">dima.nayda.1993@gmail.com</button>
+            </a>
+            <br>
+            <a target="_blank" href="https://www.facebook.com/dmytro.naida"> 
+                <button type="button" class="btn bg-light" name="button">Facebook</button>
+            </a>
+            <br>
+            <a target="_blank" href="https://www.linkedin.com/in/dmytro-nayda/"> 
+              <button type="button" class="btn bg-light" name="button">Linkedin</button>
+            </a>
           </div>
-        </div>
-        <div style="padding-bottom:1rem;" class="col-lg-5">
-          <div class="d-flex flex-column align-content-around">
-            <!-- Use https://iframely.com/embed to embed articles  -->
-            <script async src="https://static.medium.com/embed.js"></script>
-            <a class="m-story" href="https://medium.com/@Dmytro.N/full-stack-guide-to-entering-a-career-of-community-manager-eadb9e321cf2">Full-stack guide to entering a career of Community Manager</a>
-          </div>
-        </div>
-        <div class="col-lg-1">
-
         </div>
 
       </div>
@@ -97,14 +97,14 @@
   </div>
   <!-- End of Hero section -->
 
-
   <!-- footer  -->
-  <footer>
-    <div class="container-fluid copyrights bg-light">
+  <footer class="bg-light">
+    <div class="container-fluid copyrights">
       <span>&copy; <i id="copy"class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Dmytro Naida</span>
     </div>
   </footer>
   <!-- End of footer  -->
+
 
 
   <!-- Bootstrap JS  -->

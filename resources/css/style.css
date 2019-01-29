@@ -27,7 +27,14 @@ p {
   height: auto;
 }
 .navbar {
-  padding: 0;
+  padding: 0 10px;
+}
+.navbar button {
+  padding-right: .5rem;
+}
+
+.navbar #navbarCollapse {
+  padding-bottom: .4rem;
 }
 .hero {
   padding-top: 56px;
@@ -46,7 +53,7 @@ p {
 }
 
 .copy {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 a {
@@ -159,7 +166,7 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: #FAFAFA;
-  height: 7.25rem;
+  padding: 1rem; 
   border-top: .3px solid #D7D7D7;
 }
 
@@ -167,7 +174,6 @@ footer .container-fluid {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 3rem;
 }
 .fa-heart, #copy {
   color: #960030;
@@ -175,4 +181,8 @@ footer .container-fluid {
 
 .navbar-item {
   margin: .5rem;
+}
+
+#howiroll {
+  text-decoration: underline; 
 }
