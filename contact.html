@@ -34,7 +34,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   </style>
   <!-- custom CSS  -->
-  <link rel="stylesheet" href="./resources/css/style.css">
+  <link rel="stylesheet" href="./resources/css/contact.css">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
       </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse" style="padding-right: 0.5rem;">
+    <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto nav-pills">
         <li class="navbar-item text-center">
           <a href="./index.html" class="nav-link text-dark">
@@ -57,9 +57,9 @@
         <li class="navbar-item text-center">
           <a href="./resume.html" class="text-dark nav-link disabled">Resume</a>
         </li>
-        <li class="navbar-item text-center">
+        <!-- <li class="navbar-item text-center">
           <a href="./blog.html" class="text-dark nav-link disabled">Blog</a>
-        </li>
+        </li> -->
         <li class="navbar-item text-center">
           <a href="#" class="text-dark active nav-link"> <i class="fa fa-paper-plane"></i> Contact</a>
         </li>
@@ -69,21 +69,26 @@
   <!-- End of Navigation -->
 
   <!-- Hero section of the website - main info + subs form  -->
-  <div class="hero contact text-light">
+  <div class="hero contact text-light" >
     <div class="container">
       <div class="row copy">
         <div class="col-lg-7">
           <h1>Hi there!</h1>
-          <p>Thanks for your interest. If you wish to reach me out, just drop me a line...</p>
+          <p>Thanks for interest. If you wish to get in touch, just drop me a line...</p>
         </div>
         <div class="col-lg-5 header-mail-mobile">
           <div class="header-mail d-flex flex-column align-content-around">
-
-            <button type="button" class="btn bg-dark" name="button"><a target="_blank" href="http://www.123formbuilder.com/form-3462107/Contact-Lead-Form"><i class="fa fa-envelope"></i>  Email </a></button>
+            <a target="_blank" href="mailto:dima.nayda.1993@gmail.com"> 
+                <button type="button" class="btn bg-light" name="button">dima.nayda.1993@gmail.com</button>
+            </a>
             <br>
-            <button type="button" class="btn bg-dark" name="button"><a target="_blank" href="https://www.facebook.com/dmytro.naida"> Facebook</a></button>
+            <a target="_blank" href="https://www.facebook.com/dmytro.naida"> 
+                <button type="button" class="btn bg-light" name="button">Facebook</button>
+            </a>
             <br>
-            <button type="button" class="btn bg-dark" name="button"><a target="_blank" href="https://www.linkedin.com/in/dmytro-nayda/">Linkedin</a></button>
+            <a target="_blank" href="https://www.linkedin.com/in/dmytro-nayda/"> 
+              <button type="button" class="btn bg-light" name="button">Linkedin</button>
+            </a>
           </div>
         </div>
 
@@ -92,14 +97,14 @@
   </div>
   <!-- End of Hero section -->
 
-
   <!-- footer  -->
-  <footer>
-    <div class="container-fluid copyrights bg-light">
+  <footer class="bg-light">
+    <div class="container-fluid copyrights">
       <span>&copy; <i id="copy"class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Dmytro Naida</span>
     </div>
   </footer>
   <!-- End of footer  -->
+
 
 
   <!-- Bootstrap JS  -->
